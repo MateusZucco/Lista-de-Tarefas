@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> TAREFA - 1 </title>
+        <link rel="stylesheet"  href= "style.css" >
+    </head>
+    <body>
+        <header>
+            <h1>NOVA TAREFA</h1>
+        </header>
+        <div class="whitebox">
+            <div class="box"> ADICIONAR NOVA TAREFA </div>
+            <div class="box"><textarea class="titulo" onclick="apagar()" id="titulo">TITULO</textarea> </div>
+            <div class="box"><textarea class="notas" onclick="apagar2()" id="notas">ANOTAÇÕES</textarea></div>
+            <!--<div class= "box">PRIORIDADE: 
+                <input type="radio" id="maxima" name="prio" checked>
+                <label for="maxima">MÁXIMA</label>
+                <input type="radio" id="media" name="prio" >
+                <label for="media">MÉDIA</label>
+                <input type="radio" id="minima" name="prio" >
+                <label for="minima">MINÍMA</label>
+            </div>-->
+            <div class="box"><input id="adc" type="button" value="ADICIONAR" ></div>
+        </div>
+        <h1 id="subtitulo"></h1>
+        <div class="borda">
+            <div id="tarefa_criada" class="tarefas"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

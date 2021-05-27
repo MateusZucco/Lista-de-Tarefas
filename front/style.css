@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    font-size: 62.5%;
+    background: #5CBD95;
+    font-family: Arial;
+    color: #EDF5E1;
+    text-align: center;
+}
+h1{
+    margin: 2%;
+    font-size: 2rem;
+}
+
+
+.whitebox{ 
+    display: flex ;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+    border-radius: 1.5rem;
+    background-color:#EDF5E1;
+}
+.box{
+    font-size: 0.8rem;
+    color: black;
+    padding: 0.4rem;
+
+}
+.titulo{
+    width: 80%;
+    height: 2rem;
+}
+.notas{
+    width: 80%;
+    height: 10rem;
+}
+
+
+.borda {
+    width: 80%;
+    max-width: 650px;
+    height: auto;
+    max-height: 450px;
+    overflow-y: auto;
+    background-color:#f2f5e1;
+    margin: auto;
+    border-radius: 1.5rem;
+    margin-bottom:3%;
+}
+.tarefas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.tarefa_criada{
+    color: black;
+    border-radius: 0.5rem;
+    margin: auto;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    min-width: 20%;
+    height: 10rem;
+    padding: 6%;
+    background-color: #d7da56;
+}
+.titulo_tarefa{
+    margin: auto;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+.notas_tarefa{
+    margin: auto;
+    font-size: 1rem ;
+    color: #ffffff;
+}
+.bot_remover{
+    margin-top: 0.5rem ;
+}
+
+
+@media (max-width:900px){
+    .whitebox{
+        width: 60%;
+    }
+
+}
+@media (max-width:600px){
+    h1{
+        font-size: 1.6rem;
+    }
+    .titulo_tarefa{
+        font-size: 1rem;
+    }
+    .notas_tarefa{
+        font-size: 0.5rem ;
+    }
+    .tarefa_criada{
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+        min-width: 20%;
+        height: 7rem;
+        padding: 3%;
+    }
+
+}
+@media (max-width:320px){
+    .borda {
+        width: 80%;
+        max-width: 220px;
+    }
+    
+}
+
+
+
+
